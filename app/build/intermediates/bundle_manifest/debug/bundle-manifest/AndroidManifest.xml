@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exposure"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+
+    <!-- Internet Permission Granted -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/expo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.exposure.Activity.Business.ListAllProductsActivity" />
+        <activity android:name="com.example.exposure.Activity.Business.ListAllBusinessesActivity" />
+        <activity
+            android:name="com.example.exposure.Activity.Organizer.AddEventActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.example.exposure.Activity.Organizer.ListAllEventsActivity" />
+        <activity android:name="com.example.exposure.Activity.Visitor.VisitorMainActivity" />
+        <activity android:name="com.example.exposure.Activity.Business.BusinessMainActivity" />
+        <activity android:name="com.example.exposure.Activity.Organizer.OrganizerMainActivity" />
+        <activity android:name="com.example.exposure.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.exposure.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>

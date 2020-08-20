@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/rootLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="@dimen/page_layout_margin"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<LinearLayout
+    android:id="@+id/titleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/title_layout_bottom_margin"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginEnd="@dimen/main_title_right_margin"
+        android:text="@string/title_label"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/title_label_size" />
+
+    <TextView
+        android:id="@+id/subtitleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_make_a_choice"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/subtitle_lable_size" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/main_text_label"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical"
+        android:text="@string/organizer_verbose_text"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/organizer_verbose_text_size" />
+
+    <ImageView
+        android:id="@+id/imgPeople"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/bottom_button_lrg_margin"
+        android:layout_weight="1"
+        android:contentDescription="@string/imgPeople_cd"
+        app:srcCompat="@drawable/organizer" />
+
+    <Button
+        android:id="@+id/btnShowAllEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_button_std_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btnViewAllEvents_text"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCreateEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_button_std_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/organizer_create_new_event_text"
+        android:textColor="@color/white" />
+
+</LinearLayout>

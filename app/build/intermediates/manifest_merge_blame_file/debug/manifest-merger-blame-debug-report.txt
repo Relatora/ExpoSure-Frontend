@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.exposure"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml
+10
+11    <!-- Internet Permission Granted -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:9:5-34:19
+15        android:allowBackup="true"
+15-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\relat\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@drawable/expo_icon"
+19-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:15:9-40
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:16:9-44
+26        <activity android:name="com.example.exposure.Activity.Business.ListAllProductsActivity" />
+26-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:18:9-88
+26-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:18:19-76
+27        <activity android:name="com.example.exposure.Activity.Business.ListAllBusinessesActivity" />
+27-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:19:9-81
+27-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:19:19-78
+28        <activity
+28-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:20:9-22:58
+29            android:name="com.example.exposure.Activity.Organizer.AddEventActivity"
+29-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:21:13-64
+30            android:windowSoftInputMode="adjustResize" />
+30-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:22:13-55
+31        <activity android:name="com.example.exposure.Activity.Organizer.ListAllEventsActivity" />
+31-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:23:9-78
+31-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:23:19-75
+32        <activity android:name="com.example.exposure.Activity.Visitor.VisitorMainActivity" />
+32-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:24:9-74
+32-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:24:19-71
+33        <activity android:name="com.example.exposure.Activity.Business.BusinessMainActivity" />
+33-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:25:9-76
+33-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:25:19-73
+34        <activity android:name="com.example.exposure.Activity.Organizer.OrganizerMainActivity" />
+34-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:26:9-78
+34-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:26:19-75
+35        <activity android:name="com.example.exposure.MainActivity" >
+35-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:27:9-33:20
+35-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:27:19-47
+36            <intent-filter>
+36-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Users\relat\Downloads\Lambton Work\Lambton Work\T3\Android\Project\App\ExpoSure_C0744378\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\relat\.gradle\caches\transforms-2\files-2.1\f1a26ea950656d6571da759a6efe23c3\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+44            android:name="com.squareup.picasso.PicassoProvider"
+44-->[com.squareup.picasso:picasso:2.71828] C:\Users\relat\.gradle\caches\transforms-2\files-2.1\f1a26ea950656d6571da759a6efe23c3\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+45            android:authorities="com.example.exposure.com.squareup.picasso"
+45-->[com.squareup.picasso:picasso:2.71828] C:\Users\relat\.gradle\caches\transforms-2\files-2.1\f1a26ea950656d6571da759a6efe23c3\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+46            android:exported="false" />
+46-->[com.squareup.picasso:picasso:2.71828] C:\Users\relat\.gradle\caches\transforms-2\files-2.1\f1a26ea950656d6571da759a6efe23c3\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+47    </application>
+48
+49</manifest>
